@@ -1,0 +1,17 @@
+{
+  "name": "parcel-app",
+  "source": "src/index.html",
+  "browserslist": "> 0.5%, last 2 versions, not dead",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "start": "parcel -p 8080 --open",
+    "build": "parcel build"
+  },
+  "author": "maciej.stefaniak@insisto.pl",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "2.7.0",
+    "parcel": "latest"
+  }
+}
